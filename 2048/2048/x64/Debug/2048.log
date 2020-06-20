@@ -1,0 +1,28 @@
+﻿  Source.cpp
+g:\im it\myprograms\3_desktop\game\2048\2048game\2048\2048\source.cpp(16): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+g:\im it\myprograms\3_desktop\game\2048\2048game\2048\2048\source.cpp(17): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+g:\im it\myprograms\3_desktop\game\2048\2048game\2048\2048\source.cpp(20): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+g:\im it\myprograms\3_desktop\game\2048\2048game\2048\2048\source.cpp(21): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+g:\im it\myprograms\3_desktop\game\2048\2048game\2048\2048\source.cpp(30): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+g:\im it\myprograms\3_desktop\game\2048\2048game\2048\2048\source.cpp(84): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  2048.vcxproj -> G:\Im IT\MyPrograms\3_Desktop\Game\2048\2048Game\2048\x64\Debug\2048.exe
