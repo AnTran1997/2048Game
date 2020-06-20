@@ -59,9 +59,18 @@ void DrawFrame(Mat &img, int xStartFrame, int yStartFrame) {
 void DrawInitNumber(Mat &img) {
 	string textNumber = "2";
 	/* Apply For text length is 1 */
-	int textSize = SQUARE_SIZE/50;
-	int leftSpace = SQUARE_SIZE / 10 * 3;	// 30;
-	int bottomSpace = SQUARE_SIZE / 10 * 3;
+	//int textSize = SQUARE_SIZE/50;
+	//int leftSpace = SQUARE_SIZE / 10 * 3;	// 30;
+	//int bottomSpace = SQUARE_SIZE / 10 * 3;
+	float textSize = 2;
+	int leftSpace = 30;
+	int bottomSpace = 30;
+	// Square size = 100
+	// 1 number: size = 2 (vua du), left= 30, bottom= 30
+	// 2 number: size = 2 (vua du), left= 15, bottom= 30
+	// 3 number: size = 1.8 (vua du), left= 20, bottom= 40
+	// 4 number: size = 1.8 (vua du), left= 10, bottom= 40
+	// 5 number: size = 0.8 (vua du), left= 10, bottom= 40
 
 	/* Draw first number in the first square (Toa do la goc phai duoi cua square*/
 	int x11 = FRAME_X_START, y11 = FRAME_Y_START;
